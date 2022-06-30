@@ -30,15 +30,18 @@
 </template>
 
 <style scooped>
+
 header .menu-superior {
   justify-content: space-between;
   display: flex;
   align-items: center;
   float: left;
 }
+
 a {
   text-decoration: none;
 }
+
 .cl {
   display: flex;
   align-items: center;
@@ -49,13 +52,15 @@ a {
 header span {
   padding: 0 20px;
 }
+
 .Perfil img {
   height: 70px;
   width: 70px;
 }
+
 .Perfil {
   display: flex;
-  padding-right: 20px;
+  margin: 500px;
 }
-.dropdown-menu{}
+
 </style>

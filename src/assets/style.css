@@ -6,17 +6,8 @@
   --cor5: #F78834;
 }
 
-.pesquisar{
-  padding-left: 20px;
-  background-color: var(--cor2);
-}
-
-.pesquisar input{
-  padding: 0 250px;
-}
-
 #app {
-  max-width: 1280px;
+  max-width: 1920px;
   margin: 0 auto;
   /* padding: 2rem; */
   height: 100vh;
@@ -24,8 +15,7 @@
   font-weight: normal;
 }
 
-header,
-footer {
+header, footer {
   background-color: var(--cor2);
   color: black;
   height: 15%;
@@ -44,58 +34,7 @@ main {
   padding-left: 20px;
 }
 
-.blocos-superior{
-  padding: 2px;
-}
-.blocos-superior .bloco1{
-  display: flex;
-  float: left;
-  width: 500px;
-  height: 170px;
-  border:3px solid var(--cor3);
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-left: 100px;
-  background-color: white;
-}
-
-.blocos-superior .bloco2{
-  display: flex;
-  float: right;
-  width: 500px;
-  height: 170px;
-  border:3px solid var(--cor3);
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-right: 100px;
-  background-color: white;
-}
-
-.blocos-inferior .bloco3{
-  display: flex;
-  float: left;
-  width: 500px;
-  height: 170px;
-  border:3px solid var(--cor3);
-  border-radius: 10px;
-  margin-top: 90px;
-  margin-left: 100px;
-  background-color: white;
-}
-
-.blocos-inferior .bloco4{
-  display: flex;
-  float: right;
-  width: 500px;
-  height: 170px;
-  border:3px solid var(--cor3);
-  border-radius: 10px;
-  margin-top: 90px;
-  margin-right: 100px;
-  background-color: white;
-}
-
-.list-jogadores{
+.list-livros{
   background-color: var(--cor1);
   display: flex;
   justify-content: center;
@@ -115,10 +54,13 @@ main {
     text-align: center;
     margin: 2rem 0;
   }
-  .form-input {
+.form-input {
     display: flex;
     justify-content: center;
-  }
+    padding: 0 150px;
+    display: flex;
+}
+    
   .form-input input {
     width: 50%;
     border: 3px solid var(--cor4);
